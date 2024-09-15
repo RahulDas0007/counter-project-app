@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+:root {
+    first-color : #00CCDD
+    second-color : #00CCDD
+    third-color : #C7253E
+}
+
+h1 {
+    margin-block: 10px;
+}
+
+p {
+    margin-inline: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin-block: 100px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container {
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.main-output h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin-block: 50px;
+}
+
+.btn {
+    height: 50px;
+    width: 220px;
+    padding: 5px;
+    text-align: center;
+    margin-inline: 20px;
+    margin-block: 10px;
+    background-color: #00CCDD;
+    border-radius: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.btn-2 {
+    height: 50px;
+    width: 220px;
+    padding: 5px;
+    text-align: center;
+    margin-inline: 20px;
+    margin-block: 10px;
+    background-color: #f50025;
+    border-radius: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #00adbd;
+    transition: 0.5s ease-in-out;
+}
+
+.button {
+    text-wrap: wrap;
+}
+
+.input-section {
+    margin-block: 50px;
+    margin-inline: auto;
+}
+
+.input-section p {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.number-sec {
+    padding: 10px;
+    outline: none;
+    border: 2.5px solid black;
+    border-radius: 10px;
+}
+
+.btn-2:hover {
+    background-color: #d7072a;
+    transition: 0.5s ease-in-out;
+}
